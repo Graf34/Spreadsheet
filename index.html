@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Электронная таблица</title>    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    </head>
+    <body onload="draw();">
+
+            
+    
+        <div id='table'>
+        </div>
+
+        <div class="rcnt">
+                <input type="button" onclick="columnplus();" value="  +  ">
+                <br/>
+                <br/>
+                <input type="button" onclick="columnmin();" value="  -   "> 
+                </div>
+
+        <div class="ccnt">
+        <br/>
+        <input type="button" onclick="rowplus();" value="  +  ">
+        <input type="button" onclick="rowmin();" value="  -  "> 
+        </div>
+
+        <script src='js/script.js'></script>
+    </body>
+</html>    

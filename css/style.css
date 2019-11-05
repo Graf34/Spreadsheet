@@ -1,0 +1,36 @@
+#table{
+    float: left;
+   width: 70%; 
+   border-style: solid;
+    border-width: 1px;
+}
+input[type="text"]{
+    border-style: solid;
+    border-width: 1px;
+    height: 7%;
+    font-size: 20px;
+    padding: 0.5%;
+}
+input[type="text"]:focus {
+    
+    border: 5px double black;
+    color: black;
+    padding: 1%;
+  }
+input[type="button"]{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 9px;
+    border: 1px solid;
+}
+.ccnt{
+    float: left;
+    margin-left: 30%;
+}
+
+.rcnt{
+    width: 28%;
+    float: right;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
